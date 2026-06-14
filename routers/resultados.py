@@ -25,3 +25,13 @@ def buscar_resultados(usuario_id: int, db: Session = Depends(get_db)):
     if not resultados:
         raise HTTPException(status_code=404, detail="Nenhum resultado encontrado.")
     return resultados
+
+@router.delete("/{resultado_id}")
+def deletar_resultado(resultado_id: int, db: Session = Depends(get_db)):
+    resultado = db.query(Resultado).filter(Resultado.id == resultado_id).first()
+    if not resultado:
+        raise HTTPException(status_code=404, detail="Resultado não encontrado")
+    
+    db.delete(resultado)
+    db.commit()
+    return {"message": "Resultado deletado com sucesso"}
