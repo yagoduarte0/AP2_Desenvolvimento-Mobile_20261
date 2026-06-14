@@ -91,31 +91,31 @@ http://127.0.0.1:8000/docs
 ## Screenshots
 
 ### Tela de Cadastro
-![Cadastro](screenshots/cadastro.png)
+![Cadastro](screenshots\Screenshot 2026-06-14 183855.png)
 
 ### Quiz — Pergunta 1
-![Quiz 1](screenshots/quiz1.png)
+![Quiz 1](screenshots\Screenshot 2026-06-14 183923.png)
 
 ### Quiz — Pergunta 2
-![Quiz 2](screenshots/quiz2.png)
+![Quiz 2](screenshots\Screenshot 2026-06-14 183931.png)
 
 ### Quiz — Pergunta 3
-![Quiz 3](screenshots/quiz3.png)
+![Quiz 3](screenshots\Screenshot 2026-06-14 183938.png)
 
 ### Quiz — Pergunta 4
-![Quiz 4](screenshots/quiz4.png)
+![Quiz 4](screenshots\Screenshot 2026-06-14 183945.png)
 
 ### Quiz — Pergunta 5
-![Quiz 5](screenshots/quiz5.png)
+![Quiz 5](screenshots\Screenshot 2026-06-14 183953.png)
 
 ### Resultado
-![Resultado](screenshots/resultado.png)
+![Resultado](screenshots\Screenshot 2026-06-14 184002.png)
 
 ### Histórico
-![Histórico](screenshots/historico.png)
+![Histórico](screenshots\Screenshot 2026-06-14 184014.png)
 
 ### Meu Perfil
-![Perfil](screenshots/perfil.png)
+![Perfil](screenshots\Screenshot 2026-06-14 184023.png)
 
 ### Compartilhar Resultado
-![Compartilhar](screenshots/compartilhar.png)
+![Compartilhar](screenshots\Screenshot 2026-06-14 184035.png)
