@@ -1,4 +1,4 @@
-# TechQuiz 🚀🧠
+# TechQuiz
 
 Aplicativo Android que realiza um quiz interativo para descobrir o perfil tech do usuário, com histórico de resultados persistido em banco de dados.
 
