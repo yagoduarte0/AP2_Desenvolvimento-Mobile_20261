@@ -91,31 +91,31 @@ http://127.0.0.1:8000/docs
 ## Screenshots
 
 ### Tela de Cadastro
-![Cadastro](screenshots\Screenshot 2026-06-14 183855.png)
+![Cadastro](screenshots/Screenshot%202026-06-14%20183855.png)
 
 ### Quiz — Pergunta 1
-![Quiz 1](screenshots\Screenshot 2026-06-14 183923.png)
+![Quiz 1](screenshots/Screenshot%202026-06-14%20183923.png)
 
 ### Quiz — Pergunta 2
-![Quiz 2](screenshots\Screenshot 2026-06-14 183931.png)
+![Quiz 2](screenshots/Screenshot%202026-06-14%20183931.png)
 
 ### Quiz — Pergunta 3
-![Quiz 3](screenshots\Screenshot 2026-06-14 183938.png)
+![Quiz 3](screenshots/Screenshot%202026-06-14%20183938.png)
 
 ### Quiz — Pergunta 4
-![Quiz 4](screenshots\Screenshot 2026-06-14 183945.png)
+![Quiz 4](screenshots/Screenshot%202026-06-14%20183945.png)
 
 ### Quiz — Pergunta 5
-![Quiz 5](screenshots\Screenshot 2026-06-14 183953.png)
+![Quiz 5](screenshots/Screenshot%202026-06-14%20183953.png)
 
 ### Resultado
-![Resultado](screenshots\Screenshot 2026-06-14 184002.png)
+![Resultado](screenshots/Screenshot%202026-06-14%20184002.png)
 
 ### Histórico
-![Histórico](screenshots\Screenshot 2026-06-14 184014.png)
+![Histórico](screenshots/Screenshot%202026-06-14%20184014.png)
 
 ### Meu Perfil
-![Perfil](screenshots\Screenshot 2026-06-14 184023.png)
+![Perfil](screenshots/Screenshot%202026-06-14%20184023.png)
 
 ### Compartilhar Resultado
-![Compartilhar](screenshots\Screenshot 2026-06-14 184035.png)
+![Compartilhar](screenshots/Screenshot%202026-06-14%20184035.png)
