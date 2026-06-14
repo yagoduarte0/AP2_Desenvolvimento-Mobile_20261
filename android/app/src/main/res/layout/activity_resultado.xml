@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:padding="32dp">
+
+    <ImageButton
+        android:id="@+id/btnPerfil"
+        android:src="@drawable/user"
+        android:background="@android:color/transparent"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        android:tint="#6C63FF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seu perfil é"
+            android:textSize="18sp"
+            android:textColor="#A0A0B0"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#6C63FF"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compatibilidade"
+            android:textSize="14sp"
+            android:textColor="#A0A0B0"
+            android:layout_marginBottom="8dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressPontuacao"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:max="100"
+            android:progressTint="#6C63FF"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvPontuacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/btnCompartilhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compartilhar Resultado"
+            android:backgroundTint="#6C63FF"
+            android:textColor="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnHistorico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Histórico"
+            android:backgroundTint="#2D2D44"
+            android:textColor="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnRecomecar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recomeçar"
+            android:backgroundTint="#2D2D44"
+            android:textColor="#FFFFFF"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

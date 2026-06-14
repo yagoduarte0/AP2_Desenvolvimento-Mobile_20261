@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A1A2E"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vamos começar!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preencha seus dados para continuar"
+        android:textSize="14sp"
+        android:textColor="#A0A0B0"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu nome"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A0A0B0"
+        android:backgroundTint="#6C63FF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A0A0B0"
+        android:backgroundTint="#6C63FF"
+        android:padding="12dp"
+        android:layout_marginBottom="32dp"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnComecar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Começar Quiz"
+        android:backgroundTint="#6C63FF"
+        android:textColor="#FFFFFF"
+        android:padding="14dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
