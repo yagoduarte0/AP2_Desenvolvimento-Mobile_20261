@@ -62,6 +62,13 @@ pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0
 ```
 
+> **Erro comum no Windows:** `Fatal error in launcher: Unable to create process...`
+> Isso ocorre quando os atalhos do venv (`pip.exe`, `uvicorn.exe`) ficam com um caminho inválido, geralmente após mover/renomear a pasta do projeto. Solução: chame os módulos diretamente pelo `python.exe` do venv:
+> ```bash
+> .venv\Scripts\python.exe -m pip install -r requirements.txt
+> .venv\Scripts\python.exe -m uvicorn main:app --reload --host 0.0.0.0
+> ```
+
 ### Android
 
 1. Abra o projeto no Android Studio
@@ -90,32 +97,35 @@ http://127.0.0.1:8000/docs
 
 ## Screenshots
 
+### Tela Inicial
+![Welcome](screenshots/Welcome_page.png)
+
 ### Tela de Cadastro
-![Cadastro](screenshots/Screenshot%202026-06-14%20183855.png)
+![Cadastro](screenshots/Inicio.png)
 
 ### Quiz — Pergunta 1
-![Quiz 1](screenshots/Screenshot%202026-06-14%20183923.png)
+![Quiz 1](screenshots/Primeira_pergunta.png)
 
 ### Quiz — Pergunta 2
-![Quiz 2](screenshots/Screenshot%202026-06-14%20183931.png)
+![Quiz 2](screenshots/Segunda_pergunta.png)
 
 ### Quiz — Pergunta 3
-![Quiz 3](screenshots/Screenshot%202026-06-14%20183938.png)
+![Quiz 3](screenshots/Terceira_pergunta.png)
 
 ### Quiz — Pergunta 4
-![Quiz 4](screenshots/Screenshot%202026-06-14%20183945.png)
+![Quiz 4](screenshots/quarta_pergunta.png)
 
 ### Quiz — Pergunta 5
-![Quiz 5](screenshots/Screenshot%202026-06-14%20183953.png)
+![Quiz 5](screenshots/quinta_pergunta.png)
 
 ### Resultado
-![Resultado](screenshots/Screenshot%202026-06-14%20184002.png)
+![Resultado](screenshots/Resultado.png)
 
 ### Histórico
-![Histórico](screenshots/Screenshot%202026-06-14%20184014.png)
+![Histórico](screenshots/Historico.png)
 
 ### Meu Perfil
-![Perfil](screenshots/Screenshot%202026-06-14%20184023.png)
+![Perfil](screenshots/Perfil.png)
 
 ### Compartilhar Resultado
-![Compartilhar](screenshots/Screenshot%202026-06-14%20184035.png)
+![Compartilhar](screenshots/Compartilhar.png)
