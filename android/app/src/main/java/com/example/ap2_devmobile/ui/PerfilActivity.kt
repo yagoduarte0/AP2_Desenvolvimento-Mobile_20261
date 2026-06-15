@@ -57,17 +57,25 @@ class PerfilActivity : AppCompatActivity() {
 
         // Deletar conta
         findViewById<Button>(R.id.btnDeletarConta).setOnClickListener {
-            lifecycleScope.launch {
-                try {
-                    RetrofitClient.api.deletarUsuario(usuarioId)
-                    Toast.makeText(this@PerfilActivity, "Conta deletada!", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this@PerfilActivity, CadastroActivity::class.java)
-                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                    startActivity(intent)
-                } catch (e: Exception) {
-                    Toast.makeText(this@PerfilActivity, "Erro: ${e.message}", Toast.LENGTH_SHORT).show()
+            androidx.appcompat.app.AlertDialog.Builder(this)
+                .setTitle("Deletar Conta")
+                .setMessage("Tem certeza que deseja deletar sua conta? Essa ação não pode ser desfeita.")
+                .setPositiveButton("Deletar") { _, _ ->
+                    lifecycleScope.launch {
+                        try {
+                            RetrofitClient.api.deletarUsuario(usuarioId)
+                            Toast.makeText(this@PerfilActivity, "Conta deletada!", Toast.LENGTH_SHORT).show()
+                            val intent = Intent(this@PerfilActivity, CadastroActivity::class.java)
+                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                            startActivity(intent)
+                            overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+                        } catch (e: Exception) {
+                            Toast.makeText(this@PerfilActivity, "Erro: ${e.message}", Toast.LENGTH_SHORT).show()
+                        }
+                    }
                 }
-            }
+                .setNegativeButton("Cancelar", null)
+                .show()
         }
     }
 }

@@ -117,6 +117,7 @@ class QuizActivity : AppCompatActivity() {
                 intent.putExtra("pontuacao", pontuacaoFinal)
                 intent.putExtra("usuario_id", usuarioId)
                 startActivity(intent)
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
                 finish()
             } catch (e: Exception) {
                 Toast.makeText(this@QuizActivity, "Erro: ${e.message}", Toast.LENGTH_LONG).show()

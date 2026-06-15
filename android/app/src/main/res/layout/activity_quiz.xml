@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1A1A2E"
+    android:background="#0D0D0D"
     android:padding="24dp">
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_height="8dp"
         android:max="5"
         android:progress="1"
-        android:progressTint="#6C63FF"
+        android:progressTint="#FF2D78"
         android:layout_marginBottom="16dp"/>
 
     <FrameLayout
@@ -40,28 +40,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:buttonTint="#6C63FF"
+            android:buttonTint="#FF2D78"
             android:padding="12dp"/>
 
         <RadioButton android:id="@+id/rb2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:buttonTint="#6C63FF"
+            android:buttonTint="#FF2D78"
             android:padding="12dp"/>
 
         <RadioButton android:id="@+id/rb3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:buttonTint="#6C63FF"
+            android:buttonTint="#FF2D78"
             android:padding="12dp"/>
 
         <RadioButton android:id="@+id/rb4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
-            android:buttonTint="#6C63FF"
+            android:buttonTint="#FF2D78"
             android:padding="12dp"/>
 
     </RadioGroup>
@@ -71,7 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Próximo"
-        android:backgroundTint="#6C63FF"
+        android:backgroundTint="#FF2D78"
         android:textColor="#FFFFFF"
         android:padding="14dp"
         android:textSize="16sp"/>
@@ -81,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Voltar"
-        android:backgroundTint="#2D2D44"
+        android:backgroundTint="#1A1A1A"
         android:textColor="#FFFFFF"
         android:padding="14dp"
         android:layout_marginBottom="8dp"

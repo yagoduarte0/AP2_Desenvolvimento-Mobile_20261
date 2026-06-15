@@ -9,7 +9,7 @@
         android:id="@+id/tvNumeroPergunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#A0A0B0"
+        android:textColor="#888888"
         android:textSize="14sp"
         android:layout_marginBottom="8dp"/>
 

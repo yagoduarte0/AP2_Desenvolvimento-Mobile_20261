@@ -37,6 +37,7 @@ class CadastroActivity : AppCompatActivity() {
                     intent.putExtra("usuario_id", usuario.id)
                     intent.putExtra("usuario_nome", usuario.nome)
                     startActivity(intent)
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
                     finish()
                 } catch (e: Exception) {
                     Toast.makeText(this@CadastroActivity, "Erro: ${e.message}", Toast.LENGTH_LONG).show()
