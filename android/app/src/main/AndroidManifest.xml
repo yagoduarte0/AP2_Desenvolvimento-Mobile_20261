@@ -11,33 +11,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AP2DevMobile"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".ui.PerfilActivity"
-            android:exported="false" />
+
+        <!-- SPLASH = TELA INICIAL -->
         <activity
             android:name=".ui.SplashActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <!-- OUTRAS TELAS -->
         <activity
             android:name=".ui.CadastroActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.QuizActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.ResultadoActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.HistoricoActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.PerfilActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>
